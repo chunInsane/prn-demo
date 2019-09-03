@@ -1,0 +1,10 @@
+my.chuninsane.prn.operator.impl.AddOperator
+my.chuninsane.prn.operator.impl.SubtractOperator
+my.chuninsane.prn.operator.impl.MultiplyOperator
+my.chuninsane.prn.operator.impl.DivideOperator
+my.chuninsane.prn.operator.impl.SqrtOperator
+my.chuninsane.prn.operator.impl.PopOperator
+my.chuninsane.prn.operator.impl.PushOperator
+my.chuninsane.prn.operator.impl.UndoOperator
+my.chuninsane.prn.operator.impl.ClearOperator
+my.chuninsane.prn.operator.impl.StackInfoOperator

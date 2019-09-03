@@ -1,0 +1,139 @@
+2019-09-03 16:07:18:660 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:663 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:663 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:665 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=2 rightOpElement=3 result=6.
+ 2019-09-03 16:07:18:666 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:666 default 34 [INFO]  Execute AddOperator, leftOpElement=6 rightOpElement=5 result=11.
+ 2019-09-03 16:07:18:667 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=1 rightOpElement=11 result=11.
+ 2019-09-03 16:07:18:669 default 62 [ERROR]  Catch exception
+ my.chuninsane.prn.exception.InsufficientParameterException: insucient parameters
+	at my.chuninsane.prn.operator.AbstractOperator.pop(AbstractOperator.java:36)
+	at my.chuninsane.prn.operator.AbstractOperator.safePop(AbstractOperator.java:19)
+	at my.chuninsane.prn.operator.BiFunctionOperator.operate(BiFunctionOperator.java:21)
+	at my.chuninsane.prn.PRN.execute(PRN.java:54)
+	at my.chuninsane.prn.PRNTest.testInsucientParameters(PRNTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2019-09-03 16:07:18:672 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:673 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:673 default 34 [INFO]  Execute SubtractOperator, leftOpElement=5 rightOpElement=2 result=3.
+ 2019-09-03 16:07:18:674 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:674 default 34 [INFO]  Execute SubtractOperator, leftOpElement=3 rightOpElement=3 result=0.
+ 2019-09-03 16:07:18:675 default 30 [INFO]  Execute ClearOperator, [0].
+ 2019-09-03 16:07:18:676 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:676 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:677 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:682 default 31 [INFO]  Execute SqrtOperator, opElement=2 result=1.4142135623.
+ 2019-09-03 16:07:18:682 default 30 [INFO]  Execute ClearOperator, [1.4142135623].
+ 2019-09-03 16:07:18:683 default 24 [INFO]  Execute PushOperator, opElement=9.
+ 2019-09-03 16:07:18:683 default 31 [INFO]  Execute SqrtOperator, opElement=9 result=3.
+ 2019-09-03 16:07:18:684 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:684 default 24 [INFO]  Execute PushOperator, opElement=4.
+ 2019-09-03 16:07:18:684 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:684 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:685 default 20 [INFO]  Execute UndoOperator.
+ 2019-09-03 16:07:18:685 default 18 [INFO]  Execute PopOperator, opElement=2.
+ 2019-09-03 16:07:18:686 default 20 [INFO]  Execute UndoOperator.
+ 2019-09-03 16:07:18:686 default 18 [INFO]  Execute PopOperator, opElement=3.
+ 2019-09-03 16:07:18:686 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=5 rightOpElement=4 result=20.
+ 2019-09-03 16:07:18:687 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:687 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=20 rightOpElement=5 result=100.
+ 2019-09-03 16:07:18:687 default 20 [INFO]  Execute UndoOperator.
+ 2019-09-03 16:07:18:688 default 18 [INFO]  Execute PopOperator, opElement=100.
+ 2019-09-03 16:07:18:688 default 24 [INFO]  Execute PushOperator, opElement=20.
+ 2019-09-03 16:07:18:688 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:689 default 24 [INFO]  Execute PushOperator, opElement=7.
+ 2019-09-03 16:07:18:689 default 24 [INFO]  Execute PushOperator, opElement=12.
+ 2019-09-03 16:07:18:689 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:690 default 34 [INFO]  Execute DivideOperator, leftOpElement=12 rightOpElement=2 result=6.
+ 2019-09-03 16:07:18:691 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=7 rightOpElement=6 result=42.
+ 2019-09-03 16:07:18:691 default 24 [INFO]  Execute PushOperator, opElement=4.
+ 2019-09-03 16:07:18:692 default 34 [INFO]  Execute DivideOperator, leftOpElement=42 rightOpElement=4 result=10.5.
+ 2019-09-03 16:07:18:693 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:694 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:695 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:695 default 24 [INFO]  Execute PushOperator, opElement=4.
+ 2019-09-03 16:07:18:696 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:696 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=4 rightOpElement=5 result=20.
+ 2019-09-03 16:07:18:698 default 30 [INFO]  Execute ClearOperator, [1, 2, 3, 20].
+ 2019-09-03 16:07:18:698 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:699 default 24 [INFO]  Execute PushOperator, opElement=4.
+ 2019-09-03 16:07:18:699 default 34 [INFO]  Execute SubtractOperator, leftOpElement=3 rightOpElement=4 result=-1.
+ 2019-09-03 16:07:18:703 default 34 [INFO]  Execute SubtractOperator, leftOpElement=1 rightOpElement=1 result=0.
+ 2019-09-03 16:07:18:704 default 34 [INFO]  Execute SubtractOperator, leftOpElement=1 rightOpElement=1 result=0.
+ 2019-09-03 16:07:18:705 default 18 [INFO]  Execute PopOperator, opElement=0.
+ 2019-09-03 16:07:18:705 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:705 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:708 default 34 [INFO]  Execute AddOperator, leftOpElement=1 rightOpElement=-1 result=0.
+ 2019-09-03 16:07:18:709 default 34 [INFO]  Execute AddOperator, leftOpElement=1.123456789 rightOpElement=123,456,789,012,345.123456789 result=123,456,789,012,346.246913578.
+ 2019-09-03 16:07:18:710 default 34 [INFO]  Execute AddOperator, leftOpElement=1 rightOpElement=-1 result=0.
+ 2019-09-03 16:07:18:711 default 18 [INFO]  Execute PopOperator, opElement=0.
+ 2019-09-03 16:07:18:711 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:711 default 24 [INFO]  Execute PushOperator, opElement=-1.
+ 2019-09-03 16:07:18:713 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:714 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:714 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:716 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:716 default 18 [INFO]  Execute PopOperator, opElement=1.
+ 2019-09-03 16:07:18:718 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:718 default 20 [INFO]  Execute UndoOperator.
+ 2019-09-03 16:07:18:719 default 18 [INFO]  Execute PopOperator, opElement=1.
+ 2019-09-03 16:07:18:721 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:721 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:721 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:721 default 30 [INFO]  Execute ClearOperator, [1, 2, 3].
+ 2019-09-03 16:07:18:723 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:723 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:723 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:723 default 30 [INFO]  Execute ClearOperator, [1, 2, 3].
+ 2019-09-03 16:07:18:724 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:724 default 24 [INFO]  Execute PushOperator, opElement=2.
+ 2019-09-03 16:07:18:724 default 24 [INFO]  Execute PushOperator, opElement=3.
+ 2019-09-03 16:07:18:727 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:729 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:729 default 18 [INFO]  Execute PopOperator, opElement=1.
+ 2019-09-03 16:07:18:732 default 18 [INFO]  Execute PopOperator, opElement=1.
+ 2019-09-03 16:07:18:733 default 18 [INFO]  Execute PopOperator, opElement=1.
+ 2019-09-03 16:07:18:734 default 24 [INFO]  Execute PushOperator, opElement=1.
+ 2019-09-03 16:07:18:737 default 34 [INFO]  Execute DivideOperator, leftOpElement=5 rightOpElement=-2 result=-2.5.
+ 2019-09-03 16:07:18:741 default 34 [INFO]  Execute DivideOperator, leftOpElement=5 rightOpElement=-2 result=-2.5.
+ 2019-09-03 16:07:18:741 default 18 [INFO]  Execute PopOperator, opElement=-2.5.
+ 2019-09-03 16:07:18:741 default 24 [INFO]  Execute PushOperator, opElement=5.
+ 2019-09-03 16:07:18:741 default 24 [INFO]  Execute PushOperator, opElement=-2.
+ 2019-09-03 16:07:18:748 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=9,999 rightOpElement=0.11111 result=1,110.98889.
+ 2019-09-03 16:07:18:750 default 34 [INFO]  Execute MultiplyOperator, leftOpElement=9,999 rightOpElement=0.11111 result=1,110.98889.
+ 2019-09-03 16:07:18:751 default 18 [INFO]  Execute PopOperator, opElement=1,110.98889.
+ 2019-09-03 16:07:18:751 default 24 [INFO]  Execute PushOperator, opElement=9,999.
+ 2019-09-03 16:07:18:751 default 24 [INFO]  Execute PushOperator, opElement=0.11111.
+ 2019-09-03 16:07:18:753 default 31 [INFO]  Execute SqrtOperator, opElement=4 result=2.
+ 2019-09-03 16:07:18:755 default 31 [INFO]  Execute SqrtOperator, opElement=4 result=2.
+ 2019-09-03 16:07:18:755 default 18 [INFO]  Execute PopOperator, opElement=2.
+ 2019-09-03 16:07:18:755 default 24 [INFO]  Execute PushOperator, opElement=4.
+ 
