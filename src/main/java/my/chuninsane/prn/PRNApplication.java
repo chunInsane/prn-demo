@@ -16,7 +16,7 @@ public class PRNApplication {
         PRN prn = new PRN();
 
         // default current directory
-        String logPath = ".";
+        String logPath = System.getProperty("user.dir");
         if (args != null && args.length > 0 && StringUtil.isNotBlank(args[0])) {
             File path = new File(args[0]);
             if (!path.exists()) {
