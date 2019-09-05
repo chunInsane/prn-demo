@@ -15,7 +15,7 @@ public class DivideOperator extends BiFunctionOperator {
 
     @Override
     public PRNBigDecimal apply(PRNBigDecimal leftOpElement, PRNBigDecimal rightOpElement) {
-        if (rightOpElement.equals(new PRNBigDecimal("0"))) {
+        if (rightOpElement.compareTo(new PRNBigDecimal("0")) == 0) {
             throw new AlgorithmException("/ by zero");
         }
         return leftOpElement.divide(rightOpElement);
